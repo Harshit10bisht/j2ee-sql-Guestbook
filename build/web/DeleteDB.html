@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>------Delete Entry------</title>
+    </head>
+    <style>
+        body{
+            background-image: url("img/bg-1.jpg");
+            opacity: 0.95;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 100px;  
+            margin: 0 auto;
+            max-width: 400px;
+        }
+        input[type="text"]{
+            width: 90%;
+            padding: 15px;
+            margin: 5px 0 20px 0;
+            display: inline-block;
+            border: none;
+            border-bottom: 1px solid #000000;
+            border-radius: 5px;
+        }
+        input[type="text"]:focus{
+            background-color: #ddd;
+        }
+        button{
+            background-color: #b92b27;
+            color: white;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+            border-radius: 5px;
+        }
+        button:hover {
+            opacity:1;
+        }
+        .White {
+            color: #FFF;
+        }
+    </style>
+    <body>
+        <center>
+            <h1 class="White">Enter the Name of The Guest</h1>
+        <form action="DeleteBook">
+        <label for="name"></label>
+            <input type="text" id="inputfield" placeholder="Enter Name" name="a1">
+            
+            <button type="submit"><b>Delete</b></button>
+        </form>
+        <form action="HandleDB.html">
+                <button type="submit"><b>Changed Your Mind</b></button>
+        </form>
+        </center>    
+    </body>
+</html>

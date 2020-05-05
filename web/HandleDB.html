@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>-----Handle Database-----</title>
+    </head>
+    <style>
+        body{
+            background-image: url("img/bg-1.jpg");
+            opacity: 0.95;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 60px;  
+            margin: 0 auto;
+            max-width: 400px;
+        }
+        button{
+            background-color: #dc2430;
+            color: white;
+            padding: 18px 20px;
+            margin: 15px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+            border-radius: 5px;
+        }
+        button:hover {
+            opacity: 1;
+        }
+        .White {
+            color: #ddd;
+        }
+    </style>
+    <body>
+        <center>
+            <div class="container">
+            <h1 class="White">Choose your option:</h1>    
+                
+            <form action="ShowData1.jsp">
+                <button type="submit"><b>Show Database</b></button>
+            </form>
+            <form action="UpdateDB.html">
+                <button type="submit"><b>Update Entry</b></button>
+            </form>
+            <form action="DeleteDB.html">
+                <button type="submit"><b>Delete Entry</b></button>
+            </form>
+            <form action="DeleteFullDB.html">
+                <button type="submit"><b>Clear Database</b></button>
+            </form> 
+            <form action="GuestReg.html">
+                <button type="submit"><b>Go Back</b></button>
+            </form>                 
+                
+            </div>
+        </center>
+        
+    </body>
+</html>
